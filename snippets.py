@@ -1,3 +1,4 @@
+#pip install psycopg2
 import logging
 import argparse
 
@@ -60,7 +61,6 @@ def main():
     # convert parsed arguments from Namespace to dictionary
     arguments = vars(arguments)
     command = arguments.pop("command")
-    print (arguments)
 
     if command == "put":
     	name, snippet = put(**arguments)
