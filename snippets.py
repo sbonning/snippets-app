@@ -1,16 +1,24 @@
-#pip install psycopg2
+import psycopg2
+#for some reason this is not working - potentially because the postgreSQL implementation has a different path which is
+# "/Applications/Postgres.app/Contents/Versions/9.6/bin/psql" -p5432 -d "snippets"
 import logging
 import argparse
 
 # Set the log output file, and the log level
 logging.basicConfig(filename="snippets.log", level=logging.DEBUG)
+logging.debug("Connecting to PostgreSQL")
+connection = psycopg2.connect(database="snippets")
+logging.debug("Database connection established.")
 
 def put(name, snippet):
-	"""
-	Store a snippet with an associated name
-	Returns the name and the snippet
-	"""
-	logging.error("FIXME: Unimplemented - put({!r}, {!r})".format(name, snippet))
+	"""Store a snippet with an associated name."""
+	logging.info("Storing snippet {!r}: {!r}".format(name, snippet))
+	cursor = connection.cursor()
+	command = "insert into snippets values (%s, %s)"
+	# apparently this is old style language?  Can we express as .format notation?
+	cursor.execute(command, (name, snippet))
+	connection.commit()
+	logging.debug("Snippet stored successfully.")
 	return name, snippet
 
 def get(name):
@@ -20,8 +28,16 @@ def get(name):
 
     Returns the snippet.
     """
-    logging.error("FIXME: Unimplemented - get({!r})".format(name))
-    return name
+    logging.info("Retrieve snippet associated with name: {!r})".format(name))
+    cursor = connection.cursor()
+    command = "select message from snippets where keyword=%s"
+    cursor.execute(command, (name,))
+    #i stole this from online but I have no idea why i'm trying to find a tuple here
+    # if i understand correctly here i am creating the command cursor.execute("select message from snippets where keyword='name'")
+    # which makes sense, but why a tuple?  Why won't (command, (name)) work?
+    logging.debug("Snippet retrieved successfully") 
+    return cursor.fetchone()
+    # also this returns a tuple e.g. against 'dogs' in my database returns ('woof',) instead of just 'woof'
 
 def view_all():
 	"""
@@ -64,11 +80,12 @@ def main():
 
     if command == "put":
     	name, snippet = put(**arguments)
-    	print ("Stored {!r} as {!r}". format(snippet,name))
+    	print ("Stored {!r} as {!r}".format(snippet,name))
 
     elif command == "get":
         snippet = get(**arguments)
         print("Retrieved snippet: {!r}".format(snippet))
+        # see comment above on tuple
 
 if __name__ == "__main__":
     main()
