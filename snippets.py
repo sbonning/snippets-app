@@ -14,9 +14,10 @@ def put(name, snippet):
 	"""Store a snippet with an associated name."""
 	logging.info("Storing snippet {!r}: {!r}".format(name, snippet))
 	cursor = connection.cursor()
-	command = "insert into snippets values (%s, %s)"
+	# command = "insert into snippets values (%s, %s)"
+	command = "insert into snippets values('{0}', '{1}')".format(name, snippet)
 	# apparently this is old style language?  Can we express as .format notation?
-	cursor.execute(command, (name, snippet))
+	cursor.execute(command)
 	connection.commit()
 	logging.debug("Snippet stored successfully.")
 	return name, snippet
@@ -30,21 +31,28 @@ def get(name):
     """
     logging.info("Retrieve snippet associated with name: {!r})".format(name))
     cursor = connection.cursor()
-    command = "select message from snippets where keyword=%s"
-    cursor.execute(command, (name,))
+    command = "select message from snippets where keyword='{0}'".format(name)
+    cursor.execute(command)
     #i stole this from online but I have no idea why i'm trying to find a tuple here
     # if i understand correctly here i am creating the command cursor.execute("select message from snippets where keyword='name'")
     # which makes sense, but why a tuple?  Why won't (command, (name)) work?
     logging.debug("Snippet retrieved successfully") 
-    return cursor.fetchone()
+    if 1==False:
+    ## need to fix this
+     	return cursor.fetchone()
+    else:
+    	return cursor.fetchone()
     # also this returns a tuple e.g. against 'dogs' in my database returns ('woof',) instead of just 'woof'
 
 def view_all():
 	"""
 	Views all the current snippets saved and their associated names
 	"""
-	logging.error("FIXME: Inimplemented - view_all()")
-	return ""
+	logging.info("Retrieve all snippets")
+	cursor = connection.cursor()
+	command = "select * from snippets"
+	cursor.execute(command)
+	return cursor.fetchall()
 
 def search(string):
 	"""
@@ -54,8 +62,12 @@ def search(string):
 
 	If there is no such snippet, return 'No snippets found'
 	"""
-	logging.error("FIXME: Unimplemented - search({!r})".format(string))
-	return ""
+	logging.info("Search all snippets to find related snippets to string")
+	cursor = connection.cursor()
+	command = "select * from snippets where keyword like '%{0}%'".format(string)
+	cursor.execute(command)
+	logging.debug("Snippet/s retrieved successfully")
+	return cursor.fetchall()
 
 def main():
     """Main function"""
@@ -73,6 +85,15 @@ def main():
     get_parser = subparsers.add_parser("get", help="Retrieve a snippet")
     get_parser.add_argument("name", help="Name of the snippet")
 
+    #I guess this is a subparser for the view all command
+    logging.debug("Constructing the parser for view_all")
+    get_parser = subparsers.add_parser("view_all", help="See all snippets stored in the table")
+
+    #and the subparser for the search command
+    logging.debug("Constructing search subparser")
+    get_parser = subparsers.add_parser("search", help="Search all snippets for a string")
+    get_parser.add_argument("string", help="String to search for")
+
     arguments = parser.parse_args()
     # convert parsed arguments from Namespace to dictionary
     arguments = vars(arguments)
@@ -84,8 +105,18 @@ def main():
 
     elif command == "get":
         snippet = get(**arguments)
-        print("Retrieved snippet: {!r}".format(snippet))
+        print("Retrieved snippet: {!r}".format(snippet[0]))
         # see comment above on tuple
+
+    elif command == "view_all":
+    	snippet = view_all(**arguments)
+    	print ("Retrieved all available snippets")
+    	print (snippet)
+
+    elif command == "search":
+    	snippet = search(**arguments)
+    	print ("Retrieved all related snippets")
+    	print (snippet)
 
 if __name__ == "__main__":
     main()
