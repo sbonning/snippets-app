@@ -1529,3 +1529,662 @@ DEBUG:root:Constructing get subparser
 DEBUG:root:Constructing the parser for view_all
 DEBUG:root:Constructing search subparser
 INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Search all snippets to find related snippets to string
+DEBUG:root:Snippet/s retrieved successfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Search all snippets to find related snippets to string
+DEBUG:root:Snippet/s retrieved successfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'cat': 'tina'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'cat': 'tina'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'cat': 'tina'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'cat': 'tina'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'cat': 'tina'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'cat': 'tina'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'cat': 'tina'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'cat': 'tina'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'cat': 'tina'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'cat': 'tina'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'cat': 'tina'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'cat': 'tina'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'cat': 'tina'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'pythons': 'codings'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'pythons': 'codings'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'pythons': 'codings'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'catty': 'tinas'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'catty': 'tinas'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'catty': 'tinas'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'omg': 'fat'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'omg': 'fat'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'omgomg': 'teens'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'omgomg': 'teens'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'omgomg': 'teens'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'omgffffomg': 'teeffns'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'kelp': 'sounds'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'kelp': 'sounds'
+DEBUG:root:Snippet updated
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'kelp': 'sounds'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'kelp': 'sounds'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'kelp': 'sounds'
+DEBUG:root:Snippet hidden value ERROR, Snippet stored with hidden set to false
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'kelp': 'trees'
+DEBUG:root:Snippet updated successfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Search all snippets to find related snippets to string
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Search all snippets to find related snippets to string
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Search all snippets to find related snippets to string
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Search all snippets to find related snippets to string
+DEBUG:root:Snippet/s retrieved successfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Search all snippets to find related snippets to string
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Search all snippets to find related snippets to string
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Search all snippets to find related snippets to string
+DEBUG:root:Snippet/s retrieved successfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Search all snippets to find related snippets to string
+DEBUG:root:Snippet/s retrieved successfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Search all snippets to find related snippets to string
+DEBUG:root:Snippet/s retrieved successfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Retrieve all snippets
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Search all snippets to find related snippets to string
+DEBUG:root:Snippet/s retrieved successfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'cats': 'two'
+DEBUG:root:Snippet updated successfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Search all snippets to find related snippets to string
+DEBUG:root:Snippet/s retrieved successfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Storing snippet 'cats': 'two'
+DEBUG:root:Snippet updated successfully
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing the parser for view_all
+DEBUG:root:Constructing search subparser
+INFO:root:Search all snippets to find related snippets to string
+DEBUG:root:Snippet/s retrieved successfully
