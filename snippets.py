@@ -13,14 +13,17 @@ logging.debug("Database connection established.")
 def put(name, snippet):
 	"""Store a snippet with an associated name."""
 	logging.info("Storing snippet {!r}: {!r}".format(name, snippet))
-	cursor = connection.cursor()
-	# command = "insert into snippets values (%s, %s)"
-	command = "insert into snippets values('{0}', '{1}')".format(name, snippet)
-	# apparently this is old style language?  Can we express as .format notation?
-	cursor.execute(command)
-	connection.commit()
-	logging.debug("Snippet stored successfully.")
-	return name, snippet
+	with connection, connection.cursor() as cursor:
+		try:
+			command = "insert into snippets values('{0}', '{1}')".format(name, snippet)
+			cursor.execute(command)
+		except:
+			connection.rollback()
+			command = "update snippets set message='{0}' where keyword='{1}'".format(snippet, name)
+			cursor.execute(command)
+		connection.commit()
+		logging.debug("Snippet stored successfully.")
+		return name, snippet
 
 def get(name):
     """Retrieve the snippet with a given name.
@@ -29,19 +32,17 @@ def get(name):
 
     Returns the snippet.
     """
-    logging.info("Retrieve snippet associated with name: {!r})".format(name))
-    cursor = connection.cursor()
-    command = "select message from snippets where keyword='{0}'".format(name)
-    cursor.execute(command)
-    #i stole this from online but I have no idea why i'm trying to find a tuple here
-    # if i understand correctly here i am creating the command cursor.execute("select message from snippets where keyword='name'")
-    # which makes sense, but why a tuple?  Why won't (command, (name)) work?
-    logging.debug("Snippet retrieved successfully") 
-    if 1==False:
-    ## need to fix this
-     	return cursor.fetchone()
-    else:
-    	return cursor.fetchone()
+    logging.info("Retrieve snippet associated with name: {!r}".format(name))        
+    with connection, connection.cursor() as cursor:
+    	command = "select message from snippets where keyword='{0}'".format(name)
+    	cursor.execute(command)
+    
+    	result = cursor.fetchone()
+    	if not result:
+    		return "404: Snippet not found"
+    	else:
+    		return result[0]
+    	logging.debug("Snippet retrieved successfully") 
     # also this returns a tuple e.g. against 'dogs' in my database returns ('woof',) instead of just 'woof'
 
 def view_all():
@@ -49,10 +50,10 @@ def view_all():
 	Views all the current snippets saved and their associated names
 	"""
 	logging.info("Retrieve all snippets")
-	cursor = connection.cursor()
-	command = "select * from snippets"
-	cursor.execute(command)
-	return cursor.fetchall()
+	with connection, connection.cursor() as cursor:
+		command = "select * from snippets"
+		cursor.execute(command)
+		return cursor.fetchall()
 
 def search(string):
 	"""
@@ -63,11 +64,11 @@ def search(string):
 	If there is no such snippet, return 'No snippets found'
 	"""
 	logging.info("Search all snippets to find related snippets to string")
-	cursor = connection.cursor()
-	command = "select * from snippets where keyword like '%{0}%'".format(string)
-	cursor.execute(command)
-	logging.debug("Snippet/s retrieved successfully")
-	return cursor.fetchall()
+	with connection, connection.cursor() as cursor:
+		command = "select * from snippets where keyword like '%{0}%'".format(string)
+		cursor.execute(command)
+		logging.debug("Snippet/s retrieved successfully")
+		return cursor.fetchall()
 
 def main():
     """Main function"""
@@ -105,7 +106,7 @@ def main():
 
     elif command == "get":
         snippet = get(**arguments)
-        print("Retrieved snippet: {!r}".format(snippet[0]))
+        print("Retrieved snippet: {!r}".format(snippet))
         # see comment above on tuple
 
     elif command == "view_all":
