@@ -72,7 +72,7 @@ def search(string):
 	"""
 	logging.info("Search all snippets to find related snippets to string")
 	with connection, connection.cursor() as cursor:
-		command = "select * from snippets where keyword like '%{0}%' AND not hidden".format(string)
+		command = "select * from snippets where keyword like '%{0}%' and not hidden".format(string)
 		cursor.execute(command)
 		logging.debug("Snippet/s retrieved successfully")
 		return cursor.fetchall()
